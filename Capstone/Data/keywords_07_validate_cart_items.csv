@@ -1,0 +1,8 @@
+Keyword,Argument1,Argument2,Argument3
+login,standard_user,secret_sauce,
+random_selected_products,,,
+inventory_items_details,selected_items,,
+adding_to_cart,selected_items,,
+cart_list,,,
+cart_product_details,selected_items,,
+validate_cart,,,
