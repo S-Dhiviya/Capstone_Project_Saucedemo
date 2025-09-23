@@ -9,8 +9,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 
 # Fixtures are functions in pytest used to prepare environment for test execution.Scope by default it is "function".
-#Scope="class" defines set up and tear down for each class
-@pytest.fixture(scope="class")
+#Scope="function" defines set up and tear down for each function
+@pytest.fixture(scope="function")
 # request is a built-in pytest fixture that gives you access to the test context. setup is fixture name
 def setup(request):
 
